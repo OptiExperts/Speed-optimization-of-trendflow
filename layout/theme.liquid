@@ -1,3 +1,38 @@
+{% comment %} you can always turn off the speedupkernel{% endcomment %}
+{%- assign speedupkernel = true -%}
+{%- assign is_admin_interface = false -%}
+
+{%- if speedupkernel -%}
+{%- if request.host contains 'myshopify.com' -%}
+{%- assign is_admin_interface = true -%}
+{%- else -%}
+{%- assign is_admin_interface = false -%}
+{%- endif -%}
+
+{%- if request.host contains 'shopifypreview.com' -%}
+{%- assign is_admin_interface = false -%}
+{%- endif -%}
+
+{%- if request.host contains 'gempages.net' -%}
+{%- assign is_admin_interface = true -%}
+{%- endif -%}	
+
+{%- if request.path contains 'cart' -%}
+{%- assign is_admin_interface = true -%}
+{%- endif -%}
+
+{%- if request.path contains 'checkout' -%}
+{%- assign is_admin_interface = true -%}
+{%- endif -%}
+
+{%- if request.path contains 'pages' -%}
+{%- assign is_admin_interface = true -%}
+{%- endif -%}
+
+{%- if request.path contains 'blog' -%}
+{%- assign speedupkernel = true -%}
+{%- endif -%}
+{%- endif -%}
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ settings.text_direction }}">
 <head>{% render 'structuredDataV2' %}{% render 'SEO-Master' %}
@@ -7,7 +42,7 @@
   <meta name="theme-color" content="{{ settings.color_button }}">
 
   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<script type="lazyload2">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -15,7 +50,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<script type="lazyload2">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -92,9 +127,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <script src="{{ 'vendor-v6.js' | asset_url | split: '?' | first }}" defer="defer"></script>
   {%- if shop.enabled_currencies.size > 1 -%}
-    <link rel="stylesheet" href="{{ 'country-flags.css' | asset_url | split: '?' | first }}">
+    <link rel="stylesheet" data-href="{{ 'country-flags.css' | asset_url | split: '?' | first }}">
   {%- endif -%}
-  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+  <script type="lazyload2" data-src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}
@@ -102,7 +137,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
     <!-- Upsell & Cross Sell - Selleasy by Logbase - Starts -->
-      <script src='https://upsell-app.logbase.io/lb-upsell.js?shop=trendingflow.myshopify.com' defer></script>
+      <script type="lazyload2" data-src='https://upsell-app.logbase.io/lb-upsell.js?shop=trendingflow.myshopify.com' defer></script>
     <!-- Upsell & Cross Sell - Selleasy by Logbase - Ends -->
   {% render 'judgeme_core' %}
 {% include 'swift_core' %} 
@@ -194,6 +229,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   -%}
 {% render 'spurit_occ2_theme_snippet' %}
 
-{{ '//cdn.shopify.com/s/files/1/0194/1736/6592/t/1/assets/booster-page-speed-optimizer.js?23' | script_tag }}
 </body>
 </html>
