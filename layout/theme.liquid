@@ -233,7 +233,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {%- if shop.enabled_currencies.size > 1 -%}
     <link rel="stylesheet" data-href="{{ 'country-flags.css' | asset_url | split: '?' | first }}">
   {%- endif -%}
-  <script type="lazyload2" data-src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}
