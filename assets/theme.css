@@ -2322,7 +2322,7 @@ img[data-sizes=auto]{
 
 .skrim__link.loaded{
     animation:none;
-  }
+  } 
 
 .image-wrap img:not([role=presentation]){
   display:block
