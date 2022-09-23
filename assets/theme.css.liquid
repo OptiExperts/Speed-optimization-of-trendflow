@@ -3229,7 +3229,7 @@ svg.icon:not(.icon--full-color) circle,svg.icon:not(.icon--full-color) ellipse,s
     }
 
 [data-animate_images=true] .aos-animate.image-wrap .animate-me,[data-animate_images=true] .aos-animate .image-wrap .animate-me,[data-animate_images=true] .aos-animate.image-wrap .lazyloaded:not([role=presentation]),[data-animate_images=true] .aos-animate .image-wrap .lazyloaded:not([role=presentation]),[data-animate_images=true] .aos-animate.image-wrap img[data-modal-lazy],[data-animate_images=true] .aos-animate .image-wrap img[data-modal-lazy],[data-animate_images=true] .aos-animate.image-wrap svg,[data-animate_images=true] .aos-animate .image-wrap svg{
-    
+      animation:fade-in 0.6s ease 0s forwards;
     }
 
 .spr-badge-caption,.spr-badge-starrating{
@@ -6010,7 +6010,7 @@ html.pswp-open-in-ios,html.pswp-open-in-ios body{
 [data-animate_images=true] .feature-row__item--overlap-images>* .image-wrap{
         transform:translate(50px);
         opacity:0;
-        
+        transition:opacity 0.5s ease,transform 0.5s cubic-bezier(0.2, 0.06, 0.05, 0.95);
       }
 
 [data-animate_images=true] .feature-row__item--overlap-images>:first-child .image-wrap{
@@ -8150,7 +8150,7 @@ div[id*=collection-return]{
 [data-animate_images=true] .hero.loaded .slideshow__slide.is-selected .hero__image-wrapper,[data-animate_images=true] [data-aos=hero__animation].loaded.aos-animate .hero__image-wrapper{
       opacity:1;
       transform:scale(1);
-      
+      transition:transform 1s cubic-bezier(0.18, 0.63, 0.25, 1),opacity 0.7s ease;
     }
 
 [data-animate_images=true] .hero.loaded .slideshow__slide.is-selected .hero__link .btn,[data-animate_images=true] [data-aos=hero__animation].loaded.aos-animate .hero__link .btn{
@@ -8173,7 +8173,7 @@ div[id*=collection-return]{
 [data-animate_images=true] .hero .slideshow__slide.animate-out .hero__image-wrapper{
       opacity:0;
       transform:scale(1);
-     
+      transition:transform 0.5s ease-in 0.55s,opacity 0.5s ease-in 0.55s;
     }
 
 [data-animate_images=false] .slideshow-refresh[data-aos=hero__animation].loaded .hero__image,[data-animate_images=false] .slideshow-refresh[data-aos=hero__animation].loaded .hero__media{
