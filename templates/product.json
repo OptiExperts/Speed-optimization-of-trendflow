@@ -1,1 +1,173 @@
-{"sections":{"main":{"type":"main-product","blocks":{"price":{"type":"price","settings":{}},"03f12512-3156-4acd-b12e-5da0a6cf1c56":{"type":"shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{}},"judgeme_preview_badge_product_page_36d6f76b":{"type":"shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","disabled":true,"settings":{}},"variant_picker":{"type":"variant_picker","settings":{"size_chart":"","variant_labels":true,"picker_type":"button","color_swatches":false}},"sales_point":{"type":"sales_point","settings":{"icon":"globe","text":"Spedizione gratuita in tutto il mondo"}},"inventory_status":{"type":"inventory_status","settings":{"inventory_threshold":10,"inventory_transfers_enable":true}},"dcc88d09-010e-47df-8da0-2336333f7519":{"type":"shopify:\/\/apps\/heymerch-sales-stock-counter\/blocks\/heymerch_stock_sold_counter\/b19dc1a4-03bc-4909-ad3e-9e9616c776b7","settings":{}},"85a4e3ec-3b01-4087-a44e-f304ca2eb43a":{"type":"separator","disabled":true,"settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"surface_pickup_enable":true}},"description":{"type":"description","settings":{"is_tab":false}},"tab":{"type":"tab","settings":{"title":"Spedizione","content":"<p>La spedizione è gratuita su tutti i prodotti.<\/p>","page":""}}},"block_order":["price","03f12512-3156-4acd-b12e-5da0a6cf1c56","judgeme_preview_badge_product_page_36d6f76b","variant_picker","sales_point","inventory_status","dcc88d09-010e-47df-8da0-2336333f7519","85a4e3ec-3b01-4087-a44e-f304ca2eb43a","buy_buttons","description","tab"],"settings":{"product_image_size":"large","product_image_type":"stacked","product_zoom_enable":true,"enable_video_looping":true,"product_video_style":"muted","sku_enable":false}},"166283302949ea42af":{"type":"rich-text","blocks":{"1662833029cdf0771e-0":{"type":"heading","disabled":true,"settings":{"title":"Rich text"}},"1662833029cdf0771e-1":{"type":"text","settings":{"enlarge_text":false,"text":"<p>✅ L'acquisto è verificato su tutte le recensioni<\/p>"}}},"block_order":["1662833029cdf0771e-0","1662833029cdf0771e-1"],"settings":{"align_text":"center","narrow_column":true,"alt":false}},"judgeme_section_review_widget_77c3":{"type":"apps","blocks":{"58b6945c-1750-4921-b2df-753a9ab2aecb":{"type":"shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{}}},"block_order":["58b6945c-1750-4921-b2df-753a9ab2aecb"],"settings":{"full_width":false,"space_around":true}},"sub":{"type":"product-full-width","disabled":true,"settings":{"max_width":true}},"product-recommendations":{"type":"product-recommendations","settings":{"show_product_recommendations":true,"product_recommendations_heading":"You may also like"}},"collection-return":{"type":"collection-return","settings":{}}},"order":["main","166283302949ea42af","judgeme_section_review_widget_77c3","sub","product-recommendations","collection-return"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "03f12512-3156-4acd-b12e-5da0a6cf1c56": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "judgeme_preview_badge_product_page_36d6f76b": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart": "",
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Spedizione gratuita in tutto il mondo"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "dcc88d09-010e-47df-8da0-2336333f7519": {
+          "type": "shopify:\/\/apps\/heymerch-sales-stock-counter\/blocks\/heymerch_stock_sold_counter\/b19dc1a4-03bc-4909-ad3e-9e9616c776b7",
+          "settings": {
+          }
+        },
+        "85a4e3ec-3b01-4087-a44e-f304ca2eb43a": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Spedizione",
+            "content": "<p>Spedizione GRATUITA  in tutto il mondo (15\/20 days)<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "03f12512-3156-4acd-b12e-5da0a6cf1c56",
+        "judgeme_preview_badge_product_page_36d6f76b",
+        "variant_picker",
+        "sales_point",
+        "inventory_status",
+        "dcc88d09-010e-47df-8da0-2336333f7519",
+        "85a4e3ec-3b01-4087-a44e-f304ca2eb43a",
+        "buy_buttons",
+        "description",
+        "tab"
+      ],
+      "settings": {
+        "product_image_size": "large",
+        "product_image_type": "stacked",
+        "product_zoom_enable": true,
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "sku_enable": false
+      }
+    },
+    "166283302949ea42af": {
+      "type": "rich-text",
+      "blocks": {
+        "1662833029cdf0771e-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "1662833029cdf0771e-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>✅ L'acquisto è verificato su tutte le recensioni<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1662833029cdf0771e-0",
+        "1662833029cdf0771e-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "judgeme_section_review_widget_77c3": {
+      "type": "apps",
+      "blocks": {
+        "58b6945c-1750-4921-b2df-753a9ab2aecb": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "58b6945c-1750-4921-b2df-753a9ab2aecb"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166283302949ea42af",
+    "judgeme_section_review_widget_77c3",
+    "sub",
+    "product-recommendations",
+    "collection-return"
+  ]
+}
