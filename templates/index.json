@@ -1,1 +1,213 @@
-{"sections":{"1661476123e801d3c2":{"type":"slideshow","blocks":{"166147612328ffbd69-0":{"type":"image","settings":{"title":"TRENDFLOW STORE","title_size":42,"subheading":"","link":"shopify:\/\/collections\/all","link_text":"Shop Now","color_accent":"rgba(0,0,0,0)","text_align":"vertical-bottom horizontal-center","image":"shopify:\/\/shop_images\/banner_3c70db95-254d-4e18-b253-c5af899477da.jpg","focal_point":"center center"}}},"block_order":["166147612328ffbd69-0"],"settings":{"style":"arrows","desktop_size":-10,"mobile_size":0,"autoplay":false,"autoplay_speed":7}},"16605860305621013c":{"type":"marquee","settings":{"text":"SPEDIZIONE GRATUITA","link":"","text_size":32,"text_spacing":true,"color_scheme":"button","direction":"left","speed":"normal"}},"featured-collection-slider":{"type":"featured-collection-slider","settings":{"title":"I PIU' RICHIESTI","description":"*Sono in corso sconti a tempo limitato","home_featured_products":"piu-richiesti","per_row":"small","alt":false}},"slideshow":{"type":"slideshow","blocks":{"slideshow-0":{"type":"image","settings":{"title":"","title_size":70,"subheading":"","link":"shopify:\/\/collections\/piu-richiesti","link_text":"Most Wanted","color_accent":"#ffca21","text_align":"vertical-bottom horizontal-left","image":"shopify:\/\/shop_images\/Senza_titolo-2_49f73d5e-df46-45c1-baf9-f93e797dcf9e.jpg","image_mobile":"shopify:\/\/shop_images\/grap1mobile_ee93e0cb-bb35-4980-93ab-0d7cb107e7cc.png","focal_point":"center center"}}},"block_order":["slideshow-0"],"settings":{"style":"arrows","desktop_size":0,"mobile_size":0,"autoplay":false,"autoplay_speed":7}},"marquee":{"type":"marquee","settings":{"text":"SPEDIZIONE GRATUITA","link":"","text_size":36,"text_spacing":true,"color_scheme":"button","direction":"left","speed":"normal"}},"166292186250be4c45":{"type":"rich-text","blocks":{"16629218621953c537-0":{"type":"heading","settings":{"title":"✅ Assistenza H24 post acquisto"}},"16629218621953c537-1":{"type":"text","settings":{"enlarge_text":false,"text":"<p>Per qualsiasi domanda post acquisto contatta il nostro supporto tramite la chat del sito o tramite email che trovi nella pagina contatti!<\/p>"}}},"block_order":["16629218621953c537-0","16629218621953c537-1"],"settings":{"align_text":"center","narrow_column":true,"alt":false}},"rich-text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"title":"Hai già tentato la fortuna sulla ruota?"}},"text":{"type":"text","settings":{"enlarge_text":true,"text":"<p><strong>Hai 1 tentativo per ricevere un Super Sconto girando la ruota della FORTUNA, lo sconto e' applicabile anche ai prodotti con uno sconto già attivo!<\/strong><\/p>"}}},"block_order":["heading","text"],"settings":{"align_text":"center","narrow_column":true,"alt":false}},"featured-collection-slider2":{"type":"featured-collection-slider","settings":{"title":"Smart Home","description":"*Sconti Lampo attivi sui prodotti Smart Home","home_featured_products":"arredamento-smart","per_row":"small","alt":false}},"1660586177159c58b7":{"type":"rich-text","blocks":{"1660586177ea6989ad-0":{"type":"heading","settings":{"title":"Protezione sugli acquisti con PayPal  ✅"}}},"block_order":["1660586177ea6989ad-0"],"settings":{"align_text":"center","narrow_column":true,"alt":false}},"1661814127d8e6dd0d":{"type":"featured-collection-slider","settings":{"title":"top beauty","description":"","home_featured_products":"beauty","per_row":"small","alt":false}}},"order":["1661476123e801d3c2","16605860305621013c","featured-collection-slider","slideshow","marquee","166292186250be4c45","rich-text","featured-collection-slider2","1660586177159c58b7","1661814127d8e6dd0d"]}
+{
+  "sections": {
+    "1661476123e801d3c2": {
+      "type": "slideshow",
+      "blocks": {
+        "166147612328ffbd69-0": {
+          "type": "image",
+          "settings": {
+            "title": "TRENDFLOW STORE",
+            "title_size": 42,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/all",
+            "link_text": "Shop Now",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/banner_3c70db95-254d-4e18-b253-c5af899477da.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "166147612328ffbd69-0"
+      ],
+      "settings": {
+        "style": "arrows",
+        "desktop_size": -10,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "16605860305621013c": {
+      "type": "marquee",
+      "settings": {
+        "text": "SPEDIZIONE GRATUITA",
+        "link": "",
+        "text_size": 32,
+        "text_spacing": true,
+        "color_scheme": "button",
+        "direction": "left",
+        "speed": "normal"
+      }
+    },
+    "featured-collection-slider": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "I PIU' RICHIESTI",
+        "description": "*Sono in corso sconti a tempo limitato",
+        "home_featured_products": "piu-richiesti",
+        "per_row": "small",
+        "alt": false
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/piu-richiesti",
+            "link_text": "Most Wanted",
+            "color_accent": "#ffca21",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Senza_titolo-2_49f73d5e-df46-45c1-baf9-f93e797dcf9e.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/grap1mobile_ee93e0cb-bb35-4980-93ab-0d7cb107e7cc.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "marquee": {
+      "type": "marquee",
+      "settings": {
+        "text": "SPEDIZIONE GRATUITA",
+        "link": "",
+        "text_size": 36,
+        "text_spacing": true,
+        "color_scheme": "button",
+        "direction": "left",
+        "speed": "normal"
+      }
+    },
+    "166292186250be4c45": {
+      "type": "rich-text",
+      "blocks": {
+        "16629218621953c537-0": {
+          "type": "heading",
+          "settings": {
+            "title": "✅ Assistenza H24 post acquisto"
+          }
+        },
+        "16629218621953c537-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Per qualsiasi domanda post acquisto contatta il nostro supporto tramite la chat del sito o tramite email che trovi nella pagina contatti!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16629218621953c537-0",
+        "16629218621953c537-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Hai già tentato la fortuna sulla ruota?"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p><strong>Hai 1 tentativo per ricevere un Super Sconto girando la ruota della FORTUNA, lo sconto e' applicabile anche ai prodotti con uno sconto già attivo!<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "featured-collection-slider2": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "Smart Home",
+        "description": "*Sconti Lampo attivi sui prodotti Smart Home",
+        "home_featured_products": "arredamento-smart",
+        "per_row": "small",
+        "alt": false
+      }
+    },
+    "1660586177159c58b7": {
+      "type": "rich-text",
+      "blocks": {
+        "1660586177ea6989ad-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Protezione sugli acquisti con PayPal  ✅"
+          }
+        }
+      },
+      "block_order": [
+        "1660586177ea6989ad-0"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "1661814127d8e6dd0d": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "top beauty",
+        "description": "",
+        "home_featured_products": "beauty",
+        "per_row": "small",
+        "alt": false
+      }
+    },
+    "bf69f436-bf39-410e-8a5c-903d838cbd8c": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "Premium Lighters",
+        "description": "",
+        "home_featured_products": "lighters",
+        "per_row": "small",
+        "alt": false
+      }
+    }
+  },
+  "order": [
+    "1661476123e801d3c2",
+    "16605860305621013c",
+    "featured-collection-slider",
+    "slideshow",
+    "marquee",
+    "166292186250be4c45",
+    "rich-text",
+    "featured-collection-slider2",
+    "1660586177159c58b7",
+    "1661814127d8e6dd0d",
+    "bf69f436-bf39-410e-8a5c-903d838cbd8c"
+  ]
+}
