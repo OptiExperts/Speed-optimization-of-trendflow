@@ -120,6 +120,16 @@
         "alt": false
       }
     },
+    "bf69f436-bf39-410e-8a5c-903d838cbd8c": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "Premium Lighters",
+        "description": "",
+        "home_featured_products": "lighters",
+        "per_row": "small",
+        "alt": false
+      }
+    },
     "rich-text": {
       "type": "rich-text",
       "blocks": {
@@ -185,16 +195,6 @@
         "per_row": "small",
         "alt": false
       }
-    },
-    "bf69f436-bf39-410e-8a5c-903d838cbd8c": {
-      "type": "featured-collection-slider",
-      "settings": {
-        "title": "Premium Lighters",
-        "description": "",
-        "home_featured_products": "lighters",
-        "per_row": "small",
-        "alt": false
-      }
     }
   },
   "order": [
@@ -204,10 +204,10 @@
     "slideshow",
     "marquee",
     "166292186250be4c45",
+    "bf69f436-bf39-410e-8a5c-903d838cbd8c",
     "rich-text",
     "featured-collection-slider2",
     "1660586177159c58b7",
-    "1661814127d8e6dd0d",
-    "bf69f436-bf39-410e-8a5c-903d838cbd8c"
+    "1661814127d8e6dd0d"
   ]
 }
