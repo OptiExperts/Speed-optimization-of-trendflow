@@ -70,7 +70,7 @@
           "type": "tab",
           "settings": {
             "title": "Spedizione",
-            "content": "<p>Spedizione GRATUITA  in tutto il mondo. <\/p><p><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">More info...<\/a><\/p>",
+            "content": "<p>Spedizione GRATUITA  in tutto il mondo. <\/p>",
             "page": ""
           }
         },
