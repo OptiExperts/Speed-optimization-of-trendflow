@@ -73,6 +73,14 @@
             "content": "<p>Spedizione GRATUITA  in tutto il mondo (15\/20 days)<\/p>",
             "page": ""
           }
+        },
+        "f400eef2-53d9-4d94-8e99-fa125abcb864": {
+          "type": "tab",
+          "settings": {
+            "title": "Reso",
+            "content": "<p>Puoi fare il reso del prodotto gratuitamente entro 10 giorni<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -86,7 +94,8 @@
         "85a4e3ec-3b01-4087-a44e-f304ca2eb43a",
         "buy_buttons",
         "description",
-        "tab"
+        "tab",
+        "f400eef2-53d9-4d94-8e99-fa125abcb864"
       ],
       "settings": {
         "product_image_size": "large",
