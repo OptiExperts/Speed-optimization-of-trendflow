@@ -81,18 +81,6 @@
         "autoplay_speed": 7
       }
     },
-    "marquee": {
-      "type": "marquee",
-      "settings": {
-        "text": "RESO GRATUITO 10 GIORNI",
-        "link": "",
-        "text_size": 36,
-        "text_spacing": true,
-        "color_scheme": "button",
-        "direction": "left",
-        "speed": "normal"
-      }
-    },
     "featured-collection-slider": {
       "type": "featured-collection-slider",
       "settings": {
@@ -128,6 +116,18 @@
         "align_text": "center",
         "narrow_column": true,
         "alt": false
+      }
+    },
+    "marquee": {
+      "type": "marquee",
+      "settings": {
+        "text": "RESO GRATUITO 10 GIORNI",
+        "link": "",
+        "text_size": 36,
+        "text_spacing": true,
+        "color_scheme": "button",
+        "direction": "left",
+        "speed": "normal"
       }
     },
     "8af82383-2eb4-45f4-b7e0-6ad8a18b7729": {
@@ -212,9 +212,9 @@
     "16605860305621013c",
     "bf69f436-bf39-410e-8a5c-903d838cbd8c",
     "slideshow",
-    "marquee",
     "featured-collection-slider",
     "166292186250be4c45",
+    "marquee",
     "8af82383-2eb4-45f4-b7e0-6ad8a18b7729",
     "rich-text",
     "featured-collection-slider2",
