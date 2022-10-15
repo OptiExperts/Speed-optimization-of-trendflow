@@ -81,6 +81,12 @@
             "content": "<p>Puoi fare il reso del prodotto gratuitamente entro 10 giorni.<\/p>",
             "page": ""
           }
+        },
+        "8e1df073-ea1d-48be-b73f-13eb5d6cddf5": {
+          "type": "text",
+          "settings": {
+            "text": "Contattaci tramite la chat per qualsiasi domanda o dubbio, il supporto e' attivo h24."
+          }
         }
       },
       "block_order": [
@@ -95,7 +101,8 @@
         "buy_buttons",
         "description",
         "tab",
-        "f400eef2-53d9-4d94-8e99-fa125abcb864"
+        "f400eef2-53d9-4d94-8e99-fa125abcb864",
+        "8e1df073-ea1d-48be-b73f-13eb5d6cddf5"
       ],
       "settings": {
         "product_image_size": "large",
