@@ -70,7 +70,7 @@
           "type": "tab",
           "settings": {
             "title": "Spedizione",
-            "content": "<p>Spedizione GRATUITA  in tutto il mondo (15\/20 days)<\/p>",
+            "content": "<p>Spedizione GRATUITA  in tutto il mondo. <\/p><p><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">More info...<\/a><\/p>",
             "page": ""
           }
         },
@@ -78,7 +78,7 @@
           "type": "tab",
           "settings": {
             "title": "Reso",
-            "content": "<p>Puoi fare il reso del prodotto gratuitamente entro 10 giorni, maggiori informazioni nella sezione dedicata Refund Policy.<\/p><p><\/p>",
+            "content": "<p>Puoi fare il reso del prodotto gratuitamente entro 10 giorni.<\/p>",
             "page": ""
           }
         }
