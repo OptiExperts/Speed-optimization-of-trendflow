@@ -41,6 +41,16 @@
         "speed": "normal"
       }
     },
+    "e86e4043-72d9-4539-bc00-b459da6be33e": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "Super promo",
+        "description": "",
+        "home_featured_products": "trending-ebooks",
+        "per_row": "small",
+        "alt": false
+      }
+    },
     "bf69f436-bf39-410e-8a5c-903d838cbd8c": {
       "type": "featured-collection-slider",
       "settings": {
@@ -210,6 +220,7 @@
   "order": [
     "1661476123e801d3c2",
     "16605860305621013c",
+    "e86e4043-72d9-4539-bc00-b459da6be33e",
     "bf69f436-bf39-410e-8a5c-903d838cbd8c",
     "slideshow",
     "featured-collection-slider",
